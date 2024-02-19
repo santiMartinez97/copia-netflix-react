@@ -1,4 +1,4 @@
-# Imitación de la Página Web de Netflix
+# Imitación de la Página Web de inicio de Netflix Uruguay
 
 Este proyecto es una imitación de la página web de Netflix Uruguay(https://www.netflix.com/uy/), creado como mi primera práctica de desarrollo con React. Este proyecto no está asociado ni respaldado por Netflix. Todos los derechos de diseño, marca y contenido pertenecen a Netflix.
 
