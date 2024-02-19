@@ -1,0 +1,218 @@
+.contenedor-suscripcion{
+    margin: 1.5rem 0 0;
+    text-align: center;
+    padding: 0 1.5rem;
+}
+
+.texto-suscripcion{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.contenedor-form{
+    text-align: left;
+    position: relative;
+    margin: 1rem auto 0;
+    width: 100%;
+    max-width: 36.625rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.contenedor-input{
+    width: 100%;
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+    vertical-align: text-top;
+}
+
+.etiqueta-email{
+    display: block;
+    user-select: none;
+    position: absolute;
+    z-index: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition-property: top,font-size,line-height;
+    transition-duration: 250ms;
+    pointer-events: none;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    left: 1rem;
+    right: 1rem;
+    top: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(255,255,255,0.7);
+}
+
+.contenedor-casilla:focus-within + .etiqueta-email{
+    font-size: 0.75rem;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.1, 1);
+    top: 0.5rem;
+}
+
+.contenedor-casilla{
+    align-items: center;
+    display: inline-flex;
+    gap: 2px;
+    line-height: 100%;
+    position: relative;
+    text-align: left;
+    z-index: 0;
+    fill: currentColor;
+    min-width: 12.5rem;
+    padding: 0;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(255,255,255);
+}
+
+.casilla-email{
+    appearance: none;
+    background: transparent;
+    border: 0 solid transparent;
+    background-clip: padding-box;
+    font: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    text-decoration: inherit;
+    text-transform: inherit;
+    min-height: 16px;
+    min-width: 16px;
+    width: 100%;
+    color: inherit;
+    padding: 1.5rem 1rem 0.5rem;
+    line-height: 1.5;
+    font-size: 1rem;
+    filter: opacity(0%);
+}
+
+.casilla-email:focus{
+    filter: opacity(100%);
+    outline: 0;
+}
+
+.estilo-casilla{
+    color: transparent;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    inset: 0;
+    z-index: -1;
+    border: 1px solid;
+    user-select: none;
+    border-radius: 0.25rem;
+    background: rgba(22, 22, 22, 0.7);
+    border-color: rgba(128, 128, 128, 0.7);
+}
+
+.casilla-email:focus ~ .estilo-casilla{
+    outline: rgb(255, 255, 255) solid 0.125rem;
+    outline-offset: 0.125rem;
+}
+
+.boton-suscripcion{
+    overflow: visible;
+    text-transform: none;
+    appearance: none;
+    font: inherit;
+    text-decoration: none;
+    align-items: center;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    letter-spacing: normal;
+    line-height: 1;
+    user-select: none;
+    border: 0px;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    fill: currentcolor;
+    position: relative;
+    transition-duration: 250ms;
+    transition-property: background-color, border-color;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    vertical-align: text-top;
+    width: auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    padding: 0.75rem 1.5rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    flex: 0 0 auto;
+    margin-top: 0;
+    margin-left: 0.5rem;
+}
+
+.boton-suscripcion:focus{
+    outline: none;
+    outline-offset: 0.125rem;
+}
+
+.boton-suscripcion:hover{
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    background: rgb(193, 17, 25);
+    border: black;
+}
+
+.boton-suscripcion:active{
+    transition: none 0s ease 0s;
+    color: rgba(255, 255, 255, 0.7);
+    background: rgb(153, 22, 29);
+    border-color: darkgray;
+}
+
+.contenedor-boton-flecha{
+    display: inline-block;
+    height: 1.5rem;
+}
+
+.boton-flecha{
+    overflow: hidden;
+    width: 1.5rem;
+    height: inherit;
+    margin-left: 0.5rem;
+    margin-right: 0rem;
+}
+
+@media screen and (max-width: 599px) {
+    .casilla-email{
+        padding: 1.25rem 1rem 0.25rem;
+    }
+
+    .contenedor-form{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .boton-suscripcion{
+        margin-top: 1rem;
+        font-size: 1.125rem;
+        min-height: 3rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .contenedor-suscripcion{
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (min-width: 960px){
+    .contenedor-suscripcion{
+        padding: 0 2.625rem;
+    }
+
+    .texto-suscripcion{
+        font-size: 1.25rem;
+    }
+}

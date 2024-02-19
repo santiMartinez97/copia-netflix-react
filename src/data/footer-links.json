@@ -1,0 +1,62 @@
+{
+    "link1": {
+        "link": "https://help.netflix.com/support/412",
+        "titulo": "Preguntas frecuentes"
+    },
+    "link2":{
+        "link": "https://help.netflix.com/",
+        "titulo": "Centro de ayuda"
+    },
+    "link3":{
+        "link": "https://www.netflix.com/youraccount",
+        "titulo": "Cuenta"
+    },
+    "link4":{
+        "link": "https://media.netflix.com/",
+        "titulo": "Prensa"
+    },
+    "link5":{
+        "link": "http://ir.netflix.com/",
+        "titulo": "Relaciones con inversionistas"
+    },
+    "link6":{
+        "link": "https://jobs.netflix.com/jobs",
+        "titulo": "Empleo"
+    },
+    "link7":{
+        "link": "https://www.netflix.com/watch",
+        "titulo": "Formas de ver"
+    },
+    "link8":{
+        "link": "https://help.netflix.com/legal/termsofuse",
+        "titulo": "Términos de uso"
+    },
+    "link9":{
+        "link": "https://help.netflix.com/legal/privacy",
+        "titulo": "Privacidad"
+    },
+    "link10":{
+        "link": "#",
+        "titulo": "Preferencias de cookies"
+    },
+    "link11":{
+        "link": "https://help.netflix.com/legal/corpinfo",
+        "titulo": "Información corporativa"
+    },
+    "link12":{
+        "link": "https://help.netflix.com/contactus",
+        "titulo": "Contáctanos"
+    },
+    "link13":{
+        "link": "https://fast.com/",
+        "titulo": "Prueba de velocidad"
+    },
+    "link14":{
+        "link": "https://help.netflix.com/legal/notices",
+        "titulo": "Avisos legales"
+    },
+    "link15":{
+        "link": "https://www.netflix.com/uy/browse/genre/839338",
+        "titulo": "Solo en Netflix"
+    }
+}

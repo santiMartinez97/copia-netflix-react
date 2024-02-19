@@ -1,0 +1,28 @@
+{
+    "television": {
+        "imagen": "tv",
+        "altImagen":"Series en TV",
+        "titulo": "Disfruta en tu TV",
+        "texto": "Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más."
+    },
+    "descargas": {
+        "estilo": "orden-invertido",
+        "imagen": "descargas",
+        "altImagen": "Serie descargando",
+        "titulo": "Descarga tus series para verlas offline",
+        "texto": "Guarda tu contenido favorito y tendrás siempre algo para ver."
+    },
+    "dispositivos": {
+        "imagen": "dispositivos",
+        "altImagen": "Distintos dispositivos",
+        "titulo": "Disfruta donde quieras",
+        "texto": "Películas y series ilimitadas en tu teléfono, tablet, laptop y TV."
+    },
+    "ninos": {
+        "estilo": "orden-invertido",
+        "imagen": "ninos",
+        "altImagen": "Series para niños",
+        "titulo": "Crea perfiles para niños",
+        "texto": "Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, sin costo con tu membresía."
+    }
+}

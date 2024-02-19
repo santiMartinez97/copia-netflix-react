@@ -1,0 +1,83 @@
+.contenedor-beneficio{
+    min-width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4.5rem 0;
+}
+
+.contenedor-interior{
+    max-width: calc(100% - 3rem);
+}
+
+.contenedor-texto-beneficio{
+    flex-basis: 50%;
+    text-align: center;   
+}
+
+.titulo-beneficio{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.texto-beneficio{
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin: 1rem 0 0;
+}
+
+.contenedor-imagen{
+    flex-basis: 50%;
+    margin: 0.5rem auto;
+}
+
+.imagen-beneficio{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+@media screen and (min-width: 600px) {
+    .contenedor-interior{
+        max-width: calc(100% - 4rem);
+    }
+
+    .orden-invertido{
+        flex-direction: row-reverse;
+    }
+}
+
+@media screen and (min-width: 960px){
+    .contenedor-interior{
+        display: flex;
+        align-items: center;
+    }
+
+    .contenedor-texto-beneficio{
+        text-align: left;   
+    }
+
+    .titulo-beneficio{
+        font-size: 3rem;
+        font-weight: 900;
+    }
+    
+    .texto-beneficio{
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin: 1rem 0 0;
+    }
+
+    .contenedor-imagen{
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .contenedor-interior{
+        max-width: calc(83% - 4rem);
+    }
+}
+

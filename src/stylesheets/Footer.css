@@ -1,0 +1,111 @@
+footer{
+    color: rgba(255,255,255,0.7);
+    margin: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.footer-interior{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-left: 0px;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.footer-interior > *{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.footer-interior a{
+    color: rgba(255,255,255,0.7);
+    border-radius: 0.125rem;
+}
+
+.footer-fila{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: inherit;
+    padding: 0px;
+    flex: 0 0 100%;
+}
+
+.footer-contenedor-links{
+    margin: 0.75rem 0;
+    width: 100%;
+    font-size: 0.875rem;
+    font-weight: 400;
+    display: inherit;
+    height: auto;
+}
+
+.footer-lista-links{
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: inherit;
+    margin-top: 0rem;
+    margin-left: -0.75rem;
+    width: calc(100% + 0.75rem);
+    flex-direction: row;
+    padding: 0px;
+}
+
+.footer-lista-links > *{
+    margin-top: 1rem;
+    margin-left: 0.75rem;
+}
+
+.footer-contenedor-idioma{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: calc(100% + 0.5rem);
+    height: inherit;
+    margin-top: 0.5rem;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.footer-netflix{
+    font-size: 0.875rem;
+    margin-top: 1.5rem;
+}
+
+@media (min-width: 600px){
+    .footer {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 960px){
+    footer{
+        margin-top: 4.5rem;
+        margin-bottom: 4.5rem;
+    }
+    
+    .footer-contenedor-idioma{
+        width: calc(100% + 1.5rem);
+    }
+}
+
+@media screen and (min-width: 1280px){
+    footer{
+        max-width: calc(83.3% - 6rem);
+        padding-left: 0;
+        padding-right: 0;
+    }    
+}
+
+@media screen and (min-width: 1920px){
+    footer{
+        max-width: calc(66.6% - 6rem);
+    }    
+}

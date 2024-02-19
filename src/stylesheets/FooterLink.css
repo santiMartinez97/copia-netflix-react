@@ -1,0 +1,30 @@
+.footer-link{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: inherit;
+    padding: 0px;
+    flex: 0 0 calc(50% - 0.75rem);
+}
+
+.footer-a{
+    appearance: none;
+    background: none;
+    border: 0;
+    display: inline;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: underline;
+    user-select: text;
+}
+
+.footer-a:active{
+    color: red;
+}
+
+@media screen and (min-width: 960px){
+    .footer-link{
+        flex: 0 0 calc(25% - 0.75rem);
+    }    
+}
